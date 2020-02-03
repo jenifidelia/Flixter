@@ -31,7 +31,7 @@ public class Movie {
         title = jsonObject.getString("title");
         overview = jsonObject.getString("overview");
         rating= jsonObject.getDouble("vote_average");
-        movieId =jsonObject.getInt("movieId");
+        movieId =jsonObject.getInt("id");
 
     }
 
